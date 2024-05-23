@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+header a:hover {
+    cursor: pointer;
+}
